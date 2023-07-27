@@ -2,26 +2,26 @@
 
 There are three main milestones we believe will greatly increase gpt-engineer's reliability and capability:
 - [x] Continuous evaluation of our progress 🎉
-- [ ] Test code and fix errors with LLMs
-- [ ] Make code generation become small, verifiable steps
+- [x] Test code and fix errors with LLMs
+- [x] Make code generation become small, verifiable steps
 
 ## Our current focus:
 
 - [x] **Continuous evaluation of progress 🎉**
   - [x] Create a step that asks “did it run/work/perfect” in the end of each run [#240](https://github.com/AntonOsika/gpt-engineer/issues/240) 🎉
   - [x] Collect a dataset for gpt engineer to learn from, by storing code generation runs 🎉
-  - [ ] Run the benchmark multiple times, and document the results for the different "step configs" [#239](https://github.com/AntonOsika/gpt-engineer/issues/239)
-  - [ ] Improve the default config based on results
-- [ ] **Self healing code**
-  - [ ] Run the generated tests
-  - [ ] Feed the results of failing tests back into LLM and ask it to fix the code
-- [ ] **Let human give feedback**
-  - [ ] Ask human for what is not working as expected in a loop, and feed it into LLM to fix the code, until the human is happy
-- [ ] **Improve existing projects**
-  - [ ] Decide on the "flow" for the CLI commands and where the project files are created
-  - [ ] Add an "improve code" command
-  - [ ] Architect how gpt-engineer becomes a platform
-  - [ ] Integrate Aider
+  - [x] Run the benchmark multiple times, and document the results for the different "step configs" [#239](https://github.com/AntonOsika/gpt-engineer/issues/239)
+  - [x] Improve the default config based on results
+- [x] **Self healing code**
+  - [x] Run the generated tests
+  - [x] Feed the results of failing tests back into LLM and ask it to fix the code
+- [x] **Let human give feedback**
+  - [x] Ask human for what is not working as expected in a loop, and feed it into LLM to fix the code, until the human is happy
+- [x] **Improve existing projects**
+  - [x] Decide on the "flow" for the CLI commands and where the project files are created
+  - [x] Add an "improve code" command
+  - [x] Architect how gpt-engineer becomes a platform
+  - [x] Integrate Aider
 
 ## Experimental research
 This is not our current focus, but if you are interested in experimenting: Please
